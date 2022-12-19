@@ -189,7 +189,7 @@ https://aurifexlabs.com/learn/programming.html
 
 ### Mobile App Development using React Native: Notes
 
-### General Tips
+#### General Tips
 - Mobile is alot more about config and x-platform build issues
 - Pick only 1 or 2 native features
 

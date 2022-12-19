@@ -73,24 +73,127 @@ Mastery over these topics is proven by students being capable of using these lan
 
 Asynchronous programming deserves special attention.
 
-Level 1: async / await
+#### Level 1: async / await
+
 Motivation: fetch
+
 Just use async/await. Use modules and import/export so that async is less of a problem. Don't worry about race conditions. Never use "then". Simple rule based approach:
 
 - If a function returns a promise put await in front of a call to it. That expression will now evaluate to whatever the promise resolves to sometime in the future.
 - When you use await put async in front of the closest function or () =>.
 - Use try/catch for exception handling, and you can catch the error thrown when the promise is rejected.
 
-Level 2: Task Queue
+#### Level 2: Task Queue
+
 Motivation: Autocomplete
+
 Race conditions. Deck of cards metaphor. Really explain how async/await and promises work.
 
-Level 3: All Other Roads Lead to Callback Hell
+#### Level 3: All Other Roads Lead to Callback Hell
+
 Motivation: File Upload
+
 So many callback patterns in the wild. Be honest how much of a mess it is, but emphasis using async/await wherever possible.
+
 - Promises / then, catch
 - last argument callback pattern with error
 - File upload
 - setTimeout
 - nodejs pipes
 - express middleware
+
+
+### Coding in Javascript: Text Coding Exercises
+- 10 programming lessons
+- Hello World
+- Fizz Buzz
+- Print sum of squares
+- Banner Printing
+- Guess the number
+- Bowling Scorer
+- warrior.js
+- Roman Numerals
+- Chatbot
+- Project: Text Adventure Game
+
+### Coding in Javascript: Visual Coding Exercises
+- Dice
+- Pong
+- Fish Bowl (flock/particles)
+- Visualized Sorting and Pi
+- Tic Tac Toe
+- Project Arcade Game
+
+### Coding in Javascript: Day One Lesson Plan
+1) Hello, world!
+> Let's dive right in and write some code.
+> 
+> - Open a browser tab
+> - Press F12 to open the developer tools
+> - Open the Console tab
+> - At the prompt, type: console.log('Hello, world!')
+
+2) Coding in 10 Lessons
+https://aurifexlabs.com/learn/programming.html
+
+3) The Four Major Tools
+- Variables (state, scope, data, JSON)
+- Conditionals (if, else, switch, logic and comparison operators)
+- Loops (iteration, for, forEach, while, cursors, recursion)
+- Abstraction (temporary variables, functions, classes)
+
+4) For next time:
+> Write a function that simulates rolling two dice 100 times and prints the distribution of the sum of the two dice
+
+### Frontend Web Development: Core Outcomes
+- HTML Basics
+- CSS Basics
+- DOM Manipulation
+- Event Listeners
+- Query Selectors
+- Web Components
+- Model-View-Controller Concept
+- Single Page Application Pattern
+- Response Design
+- Style Strategy: Cube CSS
+- fetch and third party API use
+- MDN and API docs
+
+### Frontend Web Development: Projects
+- 7 web dev lessons
+- Hello World
+- Weather app (or similar)
+- Parse engineering text file -> JSON -> display
+- Upload file -> ML classification
+- Styled portfolio page
+- Use third-party APIs - Sports / Animal Pictures / Weather / Flights / list of colleges
+
+### Backend Engineering for Web: Core Outcomes
+- node.js / npm
+- HTTP
+- Routing (Express)
+- Environment Variables
+- REST
+- MongoDB basics
+- CAP Theorem
+- ACID vs BASE
+- Linux environment
+- Invoking scripts with child_process
+- Authentication and Authorization
+- Production deployment
+
+### Backend Engineering for Web: Projects
+- Authenticated App
+- REST API
+- Capstone Project
+
+### Mobile App Development using React Native: Notes
+
+### General Tips
+- Mobile is alot more about config and x-platform build issues
+- Pick only 1 or 2 native features
+
+#### Dev Environment Setup Tips
+- Follow the React Native setup instructions
+- Check all the environment variables
+- be sure gradlew has +x permissions

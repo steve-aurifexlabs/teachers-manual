@@ -1,4 +1,4 @@
-# Aurifex Labs - Teacher's Manual - December 2022
+# Aurifex Labs - Teacher's Manual - January 2023
 
 ## Common Strategies and Tips
 
@@ -238,16 +238,16 @@ https://aurifexlabs.com/learn/programming.html
 - Hello, World! via UART
 - Blink LED
 - Read Temp Sensor
+- Hello, Triangle!
 - Temp Graph to Display
 - Send temp data to cloud
 - Add a button
-- Hello, Triangle!
 - Pressing the button should cycle through views
 - Firmware update
 - Emulate a gas sensor using a Raspberry PI and Python
 - Write a full E2E HIL test
 
-For the capstone project, start with [this example project](https://github.com/steve-aurifexlabs/mixing-tank-controller) for an example architecture in Python.
+For the capstone project, start with [this example project](https://github.com/steve-aurifexlabs/mixing-tank-controller) for an example architecture.
 
 ### ML: Core Outcomes
 - PyTorch Basics
@@ -307,6 +307,7 @@ For the capstone project, start with [this example project](https://github.com/s
 - Muxes -> False/Multicycle Path Removal
 - Bus Design
 - Memory Hierarchy Design
+- Clock Domains
 - Pipelining
 - RISC
 - Formal Verification
@@ -320,7 +321,7 @@ For the capstone project, start with [this example project](https://github.com/s
 
 - ALU
 - SPI Controller
-- CPU Conrol Unit
+- CPU Control Unit
 - Systolic Array
 - ALU (optimized adder)
 - Multiplier

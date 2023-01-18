@@ -154,7 +154,7 @@ https://aurifexlabs.com/learn/programming.html
 - Web Components
 - Model-View-Controller Concept
 - Single Page Application Pattern
-- Response Design
+- Responsive Design
 - Style Strategy: Cube CSS
 - fetch and third party API use
 - MDN and API docs

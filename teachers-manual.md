@@ -217,10 +217,8 @@ Plus:
 - Boot firmware
 - Using blackbox firmware (vendor supplied)
 - Module init / run pattern
-- Using Edge TPUs with PyTorch
 - IC2, UART, SPI, JTAG
 - Reading Datasheets
-- Using dev boards
 - BOM cost and supply chain -> Heroics
 - Using Dev Boards
 - Signal conditioning (debounce/ADC/DAC)
@@ -236,6 +234,7 @@ Plus:
 - Power and Boot
 - Audio Circuits
 - Debounce
+- Using Edge TPUs with PyTorch
 - Memory and Code Size Contraints
 - Hard Real-Time Systems (interrupts/timers/RTOS)
 - Pre-allocated buffers

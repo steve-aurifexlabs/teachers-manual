@@ -187,6 +187,17 @@ https://aurifexlabs.com/learn/programming.html
 - REST API
 - Capstone Project
 
+### Mobile App Development: Core Outcomes
+
+Mostly it's the same as web with React Native replacing HTML/CSS.
+
+Plus:
+- React Native / Android Studio Toolchain
+- Java Basics (classes and import)
+- Gradle / Android SDK Manager
+- Android Manifest (permissions)
+- Android Deployment and Test
+
 ### Mobile App Development using React Native: Notes
 
 #### General Tips

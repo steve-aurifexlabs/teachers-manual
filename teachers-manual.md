@@ -197,3 +197,134 @@ https://aurifexlabs.com/learn/programming.html
 - Follow the React Native setup instructions
 - Check all the environment variables
 - be sure gradlew has +x permissions
+
+### Embedded Systems: Core Outcomes
+- State Machines
+- RTOS (Tasks/Queues)
+- Debugging
+- Garbage Collection and real time deadlines
+- Boot firmware
+- Using blackbox firmware (vendor supplied)
+- Module init / run pattern
+- Using Edge TPUs with PyTorch
+- IC2, UART, SPI, JTAG
+- Reading Datasheets
+- Using dev boards
+- BOM cost and supply chain -> Heroics
+- Using Dev Boards
+- Signal conditioning (debounce/ADC/DAC)
+- Build Systems
+- Simulators
+- Hardware-in-the-Loop Testing
+- Basic Circuits (LRC model)
+- RC delay (long wires have high C)
+- PCB Design concepts
+- ADC/DAC concepts
+- Basics of V=IR and P=IV
+- Input/Output Impedence
+- Power and Boot
+- Audio Circuits
+- Debounce
+- Memory and Code Size Contraints
+- Hard Real-Time Systems (interrupts/timers/RTOS)
+- Pre-allocated buffers
+- Deterministic Memory Management (no malloc after boot)
+- No cost / Low cost abstractions (metaprogramming)
+- OTA updates
+- Trustzone
+- Memory Ownership (pony types)
+
+### Embedded Systems: Projects
+- Hello, World! via UART
+- Blink LED
+- Read Temp Sensor
+- Temp Graph to Display
+- Send temp data to cloud
+- Add a button
+- Hello, Triangle!
+- Pressing the button should cycle through views
+- Firmware update
+- Emulate a gas sensor using a Raspberry PI and Python
+- Write a full E2E HIL test
+
+For the capstone project, start with [this example project](https://github.com/steve-aurifexlabs/mixing-tank-controller) for an example architecture in Python.
+
+### ML: Core Outcomes
+- PyTorch Basics
+- Neural Network Basics
+- Layers / Deep Neural Nets
+- Gradient Descent
+- Tensors
+- Convolutional Neural Nets (CNN)
+- Classification / Detection
+- Transfer Learning
+- Standard Data / Models (ImageNet/ResNet)
+- Recurrent Neural Nets (RNN)
+- Reinforcement Learning (RL)
+- Generative Adversarial Networks (GAN)
+- RL from Human Feedback (RLHF)
+- Linear Algebra
+- Statistics
+- Hyperparameter Tuning
+- Experiment Design
+- Cloud Training
+- Edge Inference
+- Hardware / Power / Cost Calculations
+
+### ML: Projects
+- Food Classifier (CNN)
+- Household object detector (CNN)
+- Command Detector (RNN)
+- Phoneme Detector (RNN)
+- Parser (RNN)
+- Map Generator (DCGAN)
+- Gym/Controls (RL)
+- Hex AI (RL)
+- Chatbot (RLHF)
+- Speech Synthesizer (mixed)
+- Datasheet Analyser (mixed)
+- Circuit Generator (mixed)
+
+### Semiconductor: Core Outcomes
+- Digital Design Basics
+- Nand Logic
+- Registers
+- Clock
+- Reset
+- Power
+- Delay
+- Low-Power Design
+- Verilog Basics
+- Parameterization
+- Code Generation
+- Place and Route
+- Static Timing Analysis
+- Memory
+- I/O
+- State Machines
+- Fast Adders
+- Multipliers
+- Muxes -> False/Multicycle Path Removal
+- Bus Design
+- Memory Hierarchy Design
+- Pipelining
+- RISC
+- Formal Verification
+- Functional Verification
+- Design for Test
+- Post-Si Debug
+- Process
+- PDKs
+
+### Semiconductor: Projects
+
+- ALU
+- SPI Controller
+- CPU Conrol Unit
+- Systolic Array
+- ALU (optimized adder)
+- Multiplier
+- Bus
+- Full SoC
+- ISA Design
+- ASIC

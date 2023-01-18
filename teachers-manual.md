@@ -226,7 +226,7 @@ Plus:
 - Simulators
 - Hardware-in-the-Loop Testing
 - Basic Circuits (LRC model)
-- RC delay (long wires have high C)
+- RC delay (long wires are bad)
 - PCB Design concepts
 - ADC/DAC concepts
 - Basics of V=IR and P=IV

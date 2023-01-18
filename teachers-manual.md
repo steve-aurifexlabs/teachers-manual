@@ -254,7 +254,7 @@ Plus:
 - Add a button
 - Pressing the button should cycle through views
 - Firmware update
-- Emulate a gas sensor using a Raspberry PI and Python
+- Emulate a gas sensor using a Raspberry PI
 - Write a full E2E HIL test
 
 For the capstone project, start with [this example project](https://github.com/steve-aurifexlabs/mixing-tank-controller) for an example architecture.

@@ -221,7 +221,7 @@ Plus:
 - Reading Datasheets
 - BOM cost and supply chain -> Heroics
 - Using Dev Boards
-- Signal conditioning (debounce/ADC/DAC)
+- Signal conditioning
 - Build Systems
 - Simulators
 - Hardware-in-the-Loop Testing

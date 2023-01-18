@@ -254,6 +254,7 @@ Plus:
 - Add a button
 - Pressing the button should cycle through views
 - Firmware update
+- Add object detection using Edge TPU
 - Emulate a gas sensor using a Raspberry PI
 - Write a full E2E HIL test
 

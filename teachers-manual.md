@@ -217,7 +217,7 @@ Plus:
 - Boot firmware
 - Using blackbox firmware (vendor supplied)
 - Module init / run pattern
-- IC2, UART, SPI, JTAG
+- I2C, UART, SPI, JTAG
 - Reading Datasheets
 - BOM cost and supply chain -> Heroics
 - Using Dev Boards
